@@ -78,3 +78,5 @@ file)
 git reset head~1
 
 ## if you want to restore file before commit.
+
+git restore src/App.css
