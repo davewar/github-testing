@@ -2,7 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-	return <div className='App'>Hello world!</div>;
+	return (
+		<div className='App'>
+			<p>this is a beta para</p>
+			<h2>This is a H2</h2>
+			<h1>This is a h1</h1>
+		</div>
+	);
 }
 
 export default App;
