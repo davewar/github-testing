@@ -67,3 +67,5 @@ You can edit directly in the screen – I changed to the below
         </div>
 
 4. save changes on this main branch and then add > commit > push
+
+#To remove last commit
