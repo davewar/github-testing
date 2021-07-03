@@ -17,7 +17,7 @@ switches to that branch
 
 ``
 
-After creating the branchs - add to the github website by
+After creating the branches - add the branch to the github website by
 
 - git push --set-upstream origin alpa
 - git push --set-upstream origin beta
