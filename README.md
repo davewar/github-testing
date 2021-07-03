@@ -21,3 +21,8 @@ After creating the branches - add the branch to the github website by
 
 - git push --set-upstream origin alpa
 - git push --set-upstream origin beta
+
+To move your alpa to the main.
+
+1. git chekout main
+2. git merge alpa
