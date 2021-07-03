@@ -7,6 +7,7 @@ function App() {
 			<p>this is a beta para</p>
 			<h2>This is a H2</h2>
 			<h1>This is a h1</h1>
+			<p>This is new !</p>
 		</div>
 	);
 }
