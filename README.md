@@ -32,3 +32,34 @@ To Delete the alpa branch as no longer required.
 
 1. git branch -d alpa
 2. git push origin :alpa
+
+if you made changes on beta branch and your main branch had changed since as
+well
+
+1. git commit + push the changes on the beta branch
+2. git checkout main
+3. git merge beta
+
+A message will advise if a conflcts exist – it yes, it will advise
+
+head = main
+
+<<<<<<< HEAD <p>This is a new para</p> <p>This is aa new para</p> <p>This is aaa
+new para</p> <p>This is aaaa new para</p> ======= <p>this is a beta para</p>
+<h2>This is a H2</h2> <h1>This is a h1</h1>
+
+> > > > > > > beta
+
+You can edit directly in the screen – I changed to the below
+
+   <div className='App'>
+
+            <p>This is a new para</p>
+
+            <p>this is a beta para</p>
+            <h2>This is a H2</h2>
+            <h1>This is a h1</h1>
+
+        </div>
+
+4. save changes on this main branch and then add > commit > push
