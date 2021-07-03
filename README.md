@@ -4,32 +4,32 @@ Commands:
 
 https://education.github.com/git-cheat-sheet-education.pdf
 
-https://www.markdownguide.org/cheat-sheet
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 - git commit -am "."
 - git push
 
 ---
 
-`git status` \*\* what branch and status of files
+`git status` - what branch and status of files
 
-git branch alpha \*\*CREATE BRANCH named alpa
+`git branch alpha` \*\*CREATE BRANCH named alpa
 
-git branch --list \*\* info - lists all branches. The '\*' tells which branch
+`git branch --list` \*\* info - lists all branches. The '\*' tells which branch
 you are on.
 
-git branch \*\* info - lists all branches. The '\*' tells which branch you are
+`git branch` \*\* info - lists all branches. The '\*' tells which branch you are
 on.
 
-git checkout alpa \*\*To switch to the 'alpa' branch
+`git checkout alpa` \*\*To switch to the 'alpa' branch
 
-git checkout main \*\*To switch to the 'main' branch
+`git checkout main` \*\*To switch to the 'main' branch
 
-`` git checkout -b beta \*\* This commands CREATE BRANCH named 'beta and also
+`git checkout -b beta` \*\* This commands CREATE BRANCH named 'beta and also
 switches to that branch
 
-`` if your on branch beta - you can compare beta to say the main branch git diff
-main
+if your on branch beta - you can compare beta to say the main branch
+`git diff main`
 
 ``
 
