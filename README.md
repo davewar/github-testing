@@ -1,3 +1,7 @@
+# GITHUB CHEATSHEET FOR MARKDOWN
+
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
 git status \*\* what branch and status of files
 
 git branch alpha \*\*CREATE BRANCH named alpa
@@ -68,7 +72,7 @@ You can edit directly in the screen – I changed to the below
 
 4. save changes on this main branch and then add > commit > push
 
-## To restore to last commit
+**To restore to last commit**
 
 1)git reset ee44e82 (the last saved change) 2) git restore src/App.css (name of
 file)
@@ -83,4 +87,9 @@ git restore src/App.css
 
 ## if i commited and not pushed a change. if someone else was to add a new file. if I was then to push, I would get error, to say that I have missing changes. To fix, I would have to pull the new additions.
 
-git pull
+git pull and then if no issues you would git push
+
+## if i were working on a branch or main and someone created a new branch with a file I dont have. In order to get this file, I would need to fetch it
+
+- git fetch origin
+- git checkout nameofnewbranch
