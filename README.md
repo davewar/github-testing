@@ -4,6 +4,11 @@ https://www.markdownguide.org/cheat-sheet
 
 ---
 
+- git commit -am "."
+- git push
+
+---
+
 git status \*\* what branch and status of files
 
 git branch alpha \*\*CREATE BRANCH named alpa
