@@ -1,5 +1,9 @@
 # GITHUB CHEATSHEET FOR MARKDOWN
 
+Commands:
+
+https://education.github.com/git-cheat-sheet-education.pdf
+
 https://www.markdownguide.org/cheat-sheet
 
 - git commit -am "."
@@ -7,7 +11,7 @@ https://www.markdownguide.org/cheat-sheet
 
 ---
 
-git status \*\* what branch and status of files
+`git status` \*\* what branch and status of files
 
 git branch alpha \*\*CREATE BRANCH named alpa
 
