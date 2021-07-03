@@ -60,6 +60,7 @@ new para</p> <p>This is aaaa new para</p> ======= <p>this is a beta para</p>
 
 You can edit directly in the screen – I changed to the below
 
+```
    <div className='App'>
 
             <p>This is a new para</p>
@@ -69,6 +70,8 @@ You can edit directly in the screen – I changed to the below
             <h1>This is a h1</h1>
 
         </div>
+
+```
 
 4. save changes on this main branch and then add > commit > push
 
