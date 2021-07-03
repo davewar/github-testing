@@ -68,4 +68,5 @@ You can edit directly in the screen – I changed to the below
 
 4. save changes on this main branch and then add > commit > push
 
-#To remove last commit
+##To remove last commit 1)git reset ee44e82 (the last saved change) 2) git
+restore src/App.css (name of file)
