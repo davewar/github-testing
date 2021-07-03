@@ -2,8 +2,6 @@
 
 https://www.markdownguide.org/cheat-sheet
 
----
-
 - git commit -am "."
 - git push
 
