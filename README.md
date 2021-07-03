@@ -75,8 +75,12 @@ file)
 
 ## if you dont want to push after commit
 
-git reset head~1
+git reset head~1 or git reset src/App.css (name of file)
 
 ## if you want to restore file before commit.
 
 git restore src/App.css
+
+## if i commited and not pushed a change. if someone else was to add a new file. if I was then to push, I would get error, to say that I have missing changes. To fix, I would have to pull the new additions.
+
+git pull
