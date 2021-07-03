@@ -1,10 +1,8 @@
 # GITHUB CHEATSHEET FOR MARKDOWN
 
-Commands:
+Commands: https://education.github.com/git-cheat-sheet-education.pdf
 
-https://education.github.com/git-cheat-sheet-education.pdf
-
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+Markdown: https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 - git commit -am "."
 - git push
@@ -30,18 +28,18 @@ switches to that branch
 `git diff main` - if your on branch beta - you can compare beta to say the main
 branch
 
-## After creating the branches - add the branch to the github website by
+**After creating the branches - add the branch to the github website by**
 
 - git push --set-upstream origin alpa
 - git push --set-upstream origin beta
 
-To move your alpa changes to the main branch.
+**To move your alpa changes to the main branch.**
 
 1. git chekout main
 2. git merge alpa
 3. git push
 
-To Delete the alpa branch as no longer required.
+**To Delete the alpa branch as no longer required.**
 
 1. git branch -d alpa
 2. git push origin :alpa
