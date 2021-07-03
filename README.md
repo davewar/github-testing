@@ -1,6 +1,8 @@
 # GITHUB CHEATSHEET FOR MARKDOWN
 
-https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+https://www.markdownguide.org/cheat-sheet
+
+---
 
 git status \*\* what branch and status of files
 
@@ -51,16 +53,19 @@ A message will advise if a conflcts exist – it yes, it will advise
 
 head = main
 
-<<<<<<< HEAD <p>This is a new para</p> <p>This is aa new para</p> <p>This is aaa
-new para</p> <p>This is aaaa new para</p> ======= <p>this is a beta para</p>
+```<<<<<<< HEAD <p>This is a new para</p> <p>This is aa new para</p> <p>This is
+aaa new para</p> <p>This is aaaa new para</p> ======= <p>this is a beta para</p>
 
 <h2>This is a H2</h2> <h1>This is a h1</h1>
 
 > > > > > > > beta
 
+```
+
 You can edit directly in the screen – I changed to the below
 
 ```
+
    <div className='App'>
 
             <p>This is a new para</p>
@@ -96,3 +101,7 @@ git pull and then if no issues you would git push
 
 - git fetch origin
 - git checkout nameofnewbranch
+
+```
+
+```
