@@ -44,14 +44,14 @@ branch
 1. git branch -d alpa
 2. git push origin :alpa
 
-**if you made changes on beta branch and your main branch had changed since as
+**If you made changes on beta branch and your main branch had changed since as
 well**
 
 1. git commit + push the changes on the beta branch
 2. git checkout main
 3. git merge beta
 
-A message will advise if a conflcts exist – it yes, it will advise
+If a conflcts exist, then you will be advised e.g
 
 ```
 <<<<<<< HEAD
