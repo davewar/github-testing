@@ -84,9 +84,15 @@ You can edit directly in the screen – I changed to the below
 
 4. save changes on this main branch and then add > commit > push
 
+https://www.youtube.com/watch?v=U3uwMr3u2Q4&list=PLriKzYyLb28nCh3jJLROcYBvj7ZO0l-3G&index=9
+
+**if you did a change and pushed it. if your boss said reverse it afterwards you
+use `git revert ee44e82` > `git push` (enter the commit ref you did) and this
+will revert back to the original status**
+
 **To restore to last commit**
 
-1)git reset ee44e82 (the last saved change) 2) git restore src/App.css (name of
+`git reset ee44e82` (the last saved change) 2) git restore src/App.css (name of
 file)
 
 **if you dont want to push after commit**
