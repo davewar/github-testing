@@ -85,8 +85,14 @@ You can edit directly in the screen – I changed to the below
 4. save changes on this main branch and then add > commit > push
 
 **if you did a change and pushed it. if your boss said reverse it afterwards**
-use `git revert ee44e82` => `:wq` => `git push` (enter the commit ref you did)
-and this will revert back to the original status\*\*
+
+- use `git revert ee44e82` => `:wq` => `git push` (enter the commit ref you did)
+  and this will revert back to the original status\*\*
+
+**if you did a change and pushed it. if your boss said reverse it afterwards**
+
+- use `git revert HEAD~1` => `:wq` => `git push` (enter the commit ref you did)
+  and this will revert back to the original status\*\*
 
 **To restore to last commit**
 
