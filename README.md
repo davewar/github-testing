@@ -96,7 +96,7 @@ You can edit directly in the screen – I changed to the below
 
 **if you dont want to push after commit**
 
-`git reset head^1` or `git reset head~1` or `git reset src/App.css` (name of
+-`git reset head^1` or `git reset head~1` or `git reset src/App.css` (name of
 file).
 
 **if you want to restore file before commit.**
@@ -107,7 +107,7 @@ git restore src/App.css
 if I was then to push, I would get error, to say that I have missing changes. To
 fix, I would have to pull the new additions.**
 
-git pull and then if no issues you would git push
+- `git pull` and then if no issues you would git push
 
 **if i were working on a branch or main and someone created a new branch with a
 file I dont have. In order to get this file, I would need to fetch it**
