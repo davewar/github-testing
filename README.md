@@ -94,14 +94,10 @@ You can edit directly in the screen – I changed to the below
 - use `git revert HEAD~1` => `:wq` => `git push` (enter the commit ref you did)
   and this will revert back to the original status\*\*
 
-**To restore to last commit**
-
-`git reset ee44e82` (the last saved change) 2) git restore src/App.css (name of
-file)
-
 **if you dont want to push after commit**
 
-git reset head~1 or git reset src/App.css (name of file)
+`git reset head^1` or `git reset head~1` or `git reset src/App.css` (name of
+file).
 
 **if you want to restore file before commit.**
 
