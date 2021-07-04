@@ -84,33 +84,33 @@ You can edit directly in the screen – I changed to the below
 
 4. save changes on this main branch and then add > commit > push
 
-**if you did a change and pushed it. if your boss said reverse it afterwards**
+**If you did a change and pushed it. if your boss said reverse it afterwards**
 
 - use `git revert ee44e82` => `:wq` => `git push` (enter the commit ref you did)
   and this will revert back to the original status\*\*
 
-**if you did a change and pushed it. if your boss said reverse it afterwards**
+**If you did a change and pushed it. if your boss said reverse it afterwards**
 
 - use `git revert HEAD~1` => `:wq` => `git push` (enter the commit ref you did)
   and this will revert back to the original status\*\*
 
-**if you dont want to push after commit**
+**If you dont want to push after commit**
 
 -`git reset head^1` or `git reset head~1` or `git reset src/App.css` (name of
 file).
 
-**if you want to restore file before commit.**
+**If you want to restore file before commit.**
 
 - `git restore src/App.css`
 
-**if i commited and not pushed a change. if someone else was to add a new file.
+**If i commited and not pushed a change. if someone else was to add a new file.
 if I was then to push, I would get error, to say that I have missing changes. To
 fix, I would have to pull the new additions.**
 
 - `git pull` and then if no issues you would git push
 
-**if i were working on a branch or main and someone created a new branch with a
-file I dont have. In order to get this file, I would need to fetch it**
+**If i were working on a branch or main and someone created a new branch with a
+file I dont have. In order to get this file, I would need to fetch it.**
 
 - `git fetch origin`
 - `git checkout nameofnewbranch`
